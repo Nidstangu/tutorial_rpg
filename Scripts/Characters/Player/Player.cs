@@ -15,6 +15,7 @@ public partial class Player : CharacterBody3D
 		Velocity = new(direction.X, 0, direction.Y);
 		Velocity *= 5;
 
+
 		MoveAndSlide();
 
 		Flip();
