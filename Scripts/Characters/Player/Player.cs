@@ -38,4 +38,5 @@ public partial class Player : CharacterBody3D
 		bool isMovingLeft = Velocity.X < 0;
 		spriteNode.FlipH = isMovingLeft;
 	}
+
 }
